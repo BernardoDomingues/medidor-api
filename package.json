@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "server": "node index.js",
+    "bd-status": "node statusBancoDeDados.js",
+    "mqtt-status": "node statusServerMQTT.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mqtt": "^4.3.7",
+    "mysql": "^2.18.1"
+  }
+}
